@@ -1,0 +1,30 @@
+.imagew{
+width:90%;
+}
+
+p{
+  font-size:15px
+}
+
+@media (width:768px){
+  .imagew{width:80%;}
+  h3{
+    font-size: 20px;
+  }
+  p{
+    font-size: 2px;
+  }
+}
+
+
+.underline{
+  border-bottom: 1px solid #495BC4;
+}
+
+.underline a{
+  margin-bottom: 5px;
+  text-decoration: none;
+
+}
+
+

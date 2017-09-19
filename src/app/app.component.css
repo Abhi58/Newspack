@@ -1,0 +1,65 @@
+img {
+  margin-left: 450px;
+}
+
+.text-color ul{
+  margin-left: 950px;
+}
+
+@media(width:1024px){
+  .text-color ul{
+    margin-left: 700px;
+  }
+  .wi{
+   margin-left: 350px;
+ }
+ }
+
+@media(width:425px){
+ .text-color ul{
+   margin-left: 120px;
+ }
+ .wi{
+  margin-left: 20px;
+}
+}
+
+@media(width:320px){
+  .text-color ul{
+    margin-left: 80px;
+  }
+  .wi{
+    margin-left: -10px;
+  }
+ }
+
+ @media(width:375px){
+  .text-color ul{
+    margin-left: 90px;
+  }
+  .wi{
+    margin-left: -10px;
+  }
+ }
+
+ @media(width:768px){
+  .text-color ul{
+    margin-left: 450px;
+  }
+  .wi{
+    margin-left: 120px;
+  }
+ }
+
+ @media(width:2560px){
+  .text-color ul{
+    margin-left: 2200px;
+  }
+  .wi{
+    margin-left: 1050px;
+  }
+ }
+
+
+
+

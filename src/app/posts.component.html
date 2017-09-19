@@ -1,0 +1,23 @@
+<!-- <ul class="list-group">
+  <li *ngFor="let post of posts" class="list-group-item">
+       <a href="#{{post.id}}" (click)="display_source(post)"> {{ post.name}}</a>
+  </li>
+
+</ul> -->
+<!-- onChange="display_source(this.options[this.selectedIndex].value)" -->
+
+<select #select_post class="select_style">
+  <option *ngFor="let post of posts;" [value]="post.id"  class="list-group-item" >
+       {{ post.name}}
+
+      </option>
+
+
+</select>
+
+<button (click)="get_articles(select_post.value)" class="btn btn-primary read" >Read Articles</button>
+
+
+<div id="{{current_source.id}}" *ngIf="check_click">
+  <app-news-display [source_data]="current_source" [articles] = "curr_articles"></app-news-display>
+</div>
